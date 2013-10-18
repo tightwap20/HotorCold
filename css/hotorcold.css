@@ -1,0 +1,85 @@
+body{
+	text-align: center;
+	background-image: url("../images/redtoblue.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+h1{
+	font-size: 70px;
+}
+h2{
+	font-size: 30px;
+}
+.mainContainer {
+	background-color: white;
+	/*opacity:0.8;*/
+	width: 660px;
+	/*height: 100%;*/
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	border: 5px solid;
+	border-radius: 30px;
+
+}
+#temperatureQuestion{
+	padding-bottom: 30px;
+}
+#userInput{
+	padding-bottom: 30px;
+}
+#listInput{
+	font-size: 150%;
+	width: 100px;
+	text-align: center;
+	border: 3px solid;
+}
+#listInput:focus{
+	box-shadow: 0 0 20px #FC1501;
+}
+.redHotColor{
+	color: #FF0000;
+	font-family: 'Butcherman', cursive;
+}
+.hotText{
+	font-family: 'Butcherman', cursive;
+}
+.coldC{
+	font-family: 'Bonbon', cursive;
+	color: #2E2EFE;
+}
+.coldText{
+	font-family: 'Bonbon', cursive;
+}
+.container{
+	/*padding-top: 30px;*/
+	padding-left: 0px;
+	margin: auto;
+	height: 340px;
+	display: inline-block;
+
+	/*background-image: url("../images/thermometer2.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+}
+.closeStatement{
+	width: 570px;
+	border: 3px solid;
+	height: 40px;
+}
+p {
+	padding-top: 7px;
+	font-size: 150%;
+}
+.thermOne{
+	margin-left: 50px;
+	padding-top: 20px;
+
+}
+.thermTwo{
+	/*position: absolute;*/
+}
