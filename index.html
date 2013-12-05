@@ -20,15 +20,21 @@
 		<h2>Guess a number from 1 to 100?</h2>
 	</div>
 	<div id="userInput">
-		<input id="listInput" type="text" maxlength="3" onKeydown="Javascript: if (event.keyCode==13) checkNumber();">
+		<input id="listInput" type="text" maxlength="3">
 	</div>
 	<div class="container">
 		<div class="closeStatement">
 			<p></p>
-		<div>
-		<!-- <img class="thermOne" src="images/thermometer.jpg"> -->
-		<!-- <img class="thermTwo" src="images/thermometer2.jpg"> -->
-
+		</div>
+		<div class="guesses">
+			<h2> Guesses: <span id="GuessNum"></span></h2>
+		</div>
+		<div class="totalGuesses">
+			<h2> It took you <span id="totGuess"></span> </h2>
+		</div>
+		<div class ="resetButton">
+			<input id="pageRefresh" type="reset" value="Try Again">
+		</div>
 	</div>
 </div>
 </body>
